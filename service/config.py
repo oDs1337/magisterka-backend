@@ -1,0 +1,5 @@
+PDF_PATH = "documents/2023_Annual_Report.pdf"
+CHROMA_DB_PATH = "./chroma_db"
+COLLECTION_NAME = "documents"
+EMBEDDING_MODEL = "msmarco-distilbert-base-v2"
+LLM_MODEL = "llama3.2:3b"
