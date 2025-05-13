@@ -1,0 +1,11 @@
+flask
+chromadb
+PyPDF2
+langchain
+langchain-core
+langchain-ollama
+langchain-text-splitters
+sentence-transformers
+semantic-text-splitter
+ollama
+python-dotenv
