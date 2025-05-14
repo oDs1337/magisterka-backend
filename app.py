@@ -1,7 +1,9 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from service.orchestrator import answer_user_question
 
 app = Flask(__name__)
+CORS(app, origins=["http://localhost:4200"])
 
 @app.route('/ask', methods=['POST'])
 def ask():
