@@ -1,4 +1,4 @@
-PDF_PATH = "documents/2023_Annual_Report.pdf"
+PDF_PATH = "documents/uploaded_document.pdf"
 CHROMA_DB_PATH = "./chroma_db"
 COLLECTION_NAME = "documents"
 EMBEDDING_MODEL = "msmarco-distilbert-base-v2"

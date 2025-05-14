@@ -10,3 +10,6 @@ sentence-transformers
 semantic-text-splitter
 ollama
 python-dotenv
+python-docx
+reportlab
+

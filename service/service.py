@@ -1,4 +1,3 @@
-python
 import chromadb
 from PyPDF2 import PdfReader
 from chromadb.utils.embedding_functions.sentence_transformer_embedding_function import SentenceTransformerEmbeddingFunction
