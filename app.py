@@ -12,7 +12,10 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import letter
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:4200"])
+CORS(app, resources={r"/*": {"origins": [
+    "http://localhost:4200",
+    "http://host.docker.internal:4200"
+]}})
 
 UPLOAD_FOLDER = 'documents'
 ALLOWED_EXTENSIONS = {'pdf', 'txt', 'docx'}
